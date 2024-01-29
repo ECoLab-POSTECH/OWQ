@@ -1,6 +1,8 @@
-torch==2.0.0
+# torch==2.0.0
 transformers
 datasets
+accelerate
+peft
 sacrebleu
 sqlitedict
 scikit-learn
@@ -9,3 +11,4 @@ pycountry
 rouge_score
 pytablewriter
 sentencepiece
+einops # for falcon.py
